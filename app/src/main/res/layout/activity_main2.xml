@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="375dp"
+        android:layout_height="138dp"
+        android:text="ข้อ 2. สามารถนำสัตว์เข้าระบบการเดินทางรถไฟฟ้าบีทีเอสได้หรือไม่"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.146" />
+
+    <Button
+        android:id="@+id/a2"
+        android:layout_width="358dp"
+        android:layout_height="72dp"
+        android:text="ห้ามผู้โดยสารนำสัตว์ทุกชนิดเข้ามาในระบบ"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.341" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="360dp"
+        android:layout_height="78dp"
+        android:text="ห้ามผู้โดยสารนำสัตว์ทุกชนิดเข้ามาในระบบ ยกเว้น สุนัขนำทางที่มากับคนตาบอด"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <Button
+        android:id="@+id/c2"
+        android:layout_width="356dp"
+        android:layout_height="68dp"
+        android:text="ผู้โดยสารนำสัตว์ทุกชนิดเข้ามาในระบบได้ "
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.666" />
+
+    <Button
+        android:id="@+id/d2"
+        android:layout_width="355dp"
+        android:layout_height="69dp"
+        android:text="ห้ามผู้โดยสารนำสัตว์ทุกชนิดเข้ามาในระบบ ยกเว้น สัตว์ที่มีกรงใส่"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.829" />
+</androidx.constraintlayout.widget.ConstraintLayout>

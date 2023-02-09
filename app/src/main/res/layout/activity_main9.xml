@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity9">
+
+    <TextView
+        android:id="@+id/question8"
+        android:layout_width="371dp"
+        android:layout_height="120dp"
+        android:text="ข้อ 9. กรณีที่เกิดเหตุฉุกเฉินในขบวนรถไฟฟ้า เช่น เกิดเพลิงไหม้ ผู้โดยสารสามารถแจ้งเหตุได้อย่างไร"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <Button
+        android:id="@+id/b9"
+        android:layout_width="288dp"
+        android:layout_height="67dp"
+        android:text="ผู้โดยสารสามารถติดต่อกับพนักงานทำความสะอาด"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/a9"
+        android:layout_width="291dp"
+        android:layout_height="70dp"
+        android:text="ผู้โดยสารสามารถติดต่อกับเจ้าหน้าที่รักษาความปลอดภัย"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <Button
+        android:id="@+id/c9"
+        android:layout_width="290dp"
+        android:layout_height="65dp"
+        android:text="ผู้โดยสารสามารถติดต่อกับพนักงานควบคุมรถไฟฟ้า"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.479"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.66" />
+
+    <Button
+        android:id="@+id/d9"
+        android:layout_width="297dp"
+        android:layout_height="67dp"
+        android:text="ผู้โดยสารสามารถติดต่อกับพนักงานห้องซื้อตั๋วโดยสาร"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.828" />
+</androidx.constraintlayout.widget.ConstraintLayout>

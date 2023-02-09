@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+    <TextView
+        android:id="@+id/question7"
+        android:layout_width="356dp"
+        android:layout_height="129dp"
+        android:text="ข้อ 8. เมื่อทำสิ่งของตกลงในรางรถไฟฟ้า ผู้โดยสารควรทำอย่างไร"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115" />
+
+    <Button
+        android:id="@+id/a8"
+        android:layout_width="295dp"
+        android:layout_height="85dp"
+        android:text="สามารถลงไปบนรางรถไฟฟ้าเพื่อเก็บสิ่งของด้วยตนเองได้ทันที"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
+
+    <Button
+        android:id="@+id/b8"
+        android:layout_width="297dp"
+        android:layout_height="109dp"
+        android:text="แจ้งเจ้าหน้าที่รักษาความปลอดภัยก่อน จากนั้นสามารถลงไปบนรางรถไฟฟ้าเพื่อเก็บสิ่งของด้วยตนเองได้ทันที"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.548" />
+
+    <Button
+        android:id="@+id/c8"
+        android:layout_width="292dp"
+        android:layout_height="68dp"
+        android:text="ปล่อยสิ่งของทิ้งไว้บนรางรถไฟฟ้าอย่างนั้น"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.736" />
+
+    <Button
+        android:id="@+id/d8"
+        android:layout_width="300dp"
+        android:layout_height="105dp"
+        android:text="ห้ามลงไปบนรางรถไฟฟ้าเพื่อเก็บสิ่งของด้วยตนเองโดยเด็ดขาด ให้แจ้งเจ้าหน้าที่เพื่อเจ้าหน้าที่จะได้ทำการเก็บสิ่งของคืนให้แก่ท่าน"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.477"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.939" />
+</androidx.constraintlayout.widget.ConstraintLayout>
